@@ -14,9 +14,9 @@ Simple library for getting stock information using the YQL API on yahoo.finance 
 
 ## Usage
 
-   $historicaldata 	= $yf->getHistoricalData('AAPL', '2012-01-01', '2012-01-31');
-   $quote          	= $yf->getQuotes('AAPL');	   				// single quote
-   $quotes	   		= $yf->getQuotes(array('AAPL', 'GOOG'));	// multiple quotes
+	$historicaldata = $yf->getHistoricalData('AAPL', '2012-01-01', '2012-01-31');
+	$quote = $yf->getQuotes('AAPL'); 					// single quote
+	$quotes = $yf->getQuotes(array('AAPL', 'GOOG'));	// multiple quotes
 
 ## Available Methods
 
